@@ -28,16 +28,16 @@ public class Enemy : MonoBehaviour, IDamageable
     void Update()
     {
 
-        // PeriksaTransisi();
+        PeriksaTransisi();
 
-        // switch (state)
-        // {
-        //     case StateZombie.IDLE: perilakuidle(); break;
-        //     case StateZombie.PATROL: perilakuPatrol(); break;
-        //     case StateZombie.CHASE: perilakuChase(); break;
-        //     case StateZombie.ATTACK: perilakuAttack(); break;
+        switch (state)
+        {
+            case StateZombie.IDLE: perilakuidle(); break;
+            case StateZombie.PATROL: perilakuPatrol(); break;
+            case StateZombie.CHASE: perilakuChase(); break;
+            case StateZombie.ATTACK: perilakuAttack(); break;
                 
-        // }
+        }
     }
     
 
